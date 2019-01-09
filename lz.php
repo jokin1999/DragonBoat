@@ -60,7 +60,7 @@ for($i = 0; $i < storage::$row; $i++){
   }
 }
 // 设置背景透明
-imagecolortransparent($img, imagecolorAllocateAlpha($img,255,255,255,127));
+// imagecolortransparent($img, imagecolorAllocateAlpha($img,255,255,255,127));
 if( IS_DEBUG === true ){
   imagepng($img, "./img.png");
 }else{
